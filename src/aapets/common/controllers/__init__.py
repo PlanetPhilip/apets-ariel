@@ -1,11 +1,13 @@
 from .cpg import RevolveCPG
 from .neighborhood_cpg import NeighborhoodCPG
 from .ABCpg import ABCpg, SymmetricalABCPG
+from .na_cpg import NaCPGController
 
 __all__ = [
     RevolveCPG,
     NeighborhoodCPG,
-    ABCpg, SymmetricalABCPG
+    ABCpg, SymmetricalABCPG,
+    NaCPGController,
 ]
 
 try:
